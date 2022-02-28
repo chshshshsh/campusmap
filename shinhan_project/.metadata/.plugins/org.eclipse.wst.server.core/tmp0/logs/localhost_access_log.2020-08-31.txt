@@ -1,0 +1,16 @@
+127.0.0.1 - - [31/Aug/2020:17:00:17 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [31/Aug/2020:17:00:25 +0900] "GET /shinhan_campusmap/cBuildingSearch.do HTTP/1.1" 404 847
+0:0:0:0:0:0:0:1 - - [31/Aug/2020:17:01:01 +0900] "GET /cBuildingSearch.do HTTP/1.1" 404 825
+127.0.0.1 - - [31/Aug/2020:20:24:15 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [31/Aug/2020:20:25:11 +0900] "GET /shinahn_campusmap/cBuildingSearch.jsp HTTP/1.1" 404 833
+0:0:0:0:0:0:0:1 - - [31/Aug/2020:20:25:22 +0900] "GET /shinahn_campusmap/campusmap/cBuildingSearch.jsp HTTP/1.1" 404 847
+127.0.0.1 - - [31/Aug/2020:20:25:48 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [31/Aug/2020:20:25:54 +0900] "GET /shinhan_campusmap/campusmap/cBuildingSearch.jsp HTTP/1.1" 500 2670
+192.168.0.7 - - [31/Aug/2020:20:29:40 +0900] "POST /shinhan_campusmap/campusmap/cBuildingSearch.jsp HTTP/1.1" 200 55
+192.168.0.7 - - [31/Aug/2020:20:50:03 +0900] "POST /shinhan_campusmap/campusmap/cBuildingSearch.jsp HTTP/1.1" 200 55
+192.168.0.3 - - [31/Aug/2020:20:50:58 +0900] "POST /shinhan_campusmap/campusmap/cBuildingSearch.jsp HTTP/1.1" 200 55
+192.168.0.3 - - [31/Aug/2020:21:00:49 +0900] "POST /shinhan_campusmap/campusmap/cBuildingSearch.jsp HTTP/1.1" 200 55
+192.168.0.7 - - [31/Aug/2020:21:16:01 +0900] "POST /shinhan_campusmap/building.jsp HTTP/1.1" 200 27
+127.0.0.1 - - [31/Aug/2020:21:45:52 +0900] "GET / HTTP/1.1" 404 807
+192.168.0.3 - - [31/Aug/2020:21:46:06 +0900] "POST /shinhan_campusmap/campusmap/cBuildingSearch.jsp HTTP/1.1" 200 55
+192.168.0.3 - - [31/Aug/2020:21:46:13 +0900] "POST /shinhan_campusmap/campusmap/cBuildingSearch.jsp HTTP/1.1" 200 55

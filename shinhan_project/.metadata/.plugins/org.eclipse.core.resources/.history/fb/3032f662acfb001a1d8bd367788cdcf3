@@ -1,0 +1,154 @@
+package shinhan.campusmap.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+
+import javax.naming.InitialContext;
+import javax.naming.NamingException;
+import javax.sql.DataSource;
+import shinhan.campusmap.dto.MemberDTO;
+
+public class MemberDAO {
+	private static Connection con;
+	
+	public MemberDAO(Connection con) {
+		this.con = con;
+	}
+	
+	
+	/**
+	 * 모든 데이터 출력
+	 * @return
+	 */
+	public ArrayList<MemberDTO> selectAllData(String id, String pw){
+		ArrayList<MemberDTO> array = new ArrayList<MemberDTO>();
+		String sql = "select * from member";
+		
+		try {
+			PreparedStatement pstmt = con.prepareStatement(sql);
+			ResultSet rs = pstmt.executeQuery();
+			
+			while(rs.next()) {
+				MemberDTO temp = new MemberDTO();
+				temp.setId(rs.getString("id"));
+				temp.setPw(rs.getString("pw"));
+				
+				array.add(temp);
+			}
+		}catch(SQLException e) {
+			e.printStackTrace();
+		}
+		
+		return array;
+	}
+	
+	/**
+	 * id로 튜플 출력
+	 * @return
+	 */
+	public MemberDTO selectByIdData(String inputid){
+		MemberDTO member = new MemberDTO();
+		String sql = "select * from member where id=?";
+		
+		try {
+			PreparedStatement pstmt = con.prepareStatement(sql);
+			pstmt.setString(1, inputid);
+			ResultSet rs = pstmt.executeQuery();
+			while(rs.next()) {
+				member.setId(rs.getString("id"));
+				member.setPw(rs.getString("pw"));
+			}
+		}catch(SQLException e) {
+			e.printStackTrace();
+		}
+		
+		return member;
+	}
+	
+	
+	/**
+	 * 삽입
+	 */
+	public boolean insertData(MemberDTO member) {
+		boolean result = true;
+		
+		String sql = "insert into member values(?,?)";
+		
+		try {
+			PreparedStatement pstmt = con.prepareStatement(sql);
+			pstmt.setString(1,  member.getId());
+			pstmt.setString(2, member.getPw());
+			pstmt.executeUpdate();
+		}catch(SQLException e) {
+			e.printStackTrace();
+			return false;
+		}
+		return result;
+	}
+	
+	/**
+	 * 삭제
+	 */
+	public boolean deleteData(MemberDTO member) {
+		boolean result = true;
+		
+		String sql = "delete table member where id=?";
+		
+		try {
+			PreparedStatement pstmt = con.prepareStatement(sql);
+			pstmt.setString(1,  member.getId());
+			pstmt.setString(2, member.getPw());
+			pstmt.executeUpdate();
+		}catch(SQLException e) {
+			e.printStackTrace();
+			return false;
+		}
+		return result;
+	}
+	
+	/**
+	 * 수정
+	 */
+	public boolean updateData(String id, String pw) {
+		boolean result = true;
+		
+		String sql = "update member set pw=? where id=?";
+		
+		try {
+			PreparedStatement pstmt = con.prepareStatement(sql);
+			pstmt.setString(1, pw);
+			pstmt.setString(2, id);
+			pstmt.executeUpdate();
+		}catch(SQLException e) {
+			e.printStackTrace();
+			return false;
+		}
+		return result;
+	}
+	
+	/**
+	 * 관리자 페이지 로그인 체크
+	 */
+	public boolean login(String id, String pw) {
+		boolean result = true;
+		
+		String sql = "select * from member where id=?";
+		
+		try {
+			PreparedStatement pstmt = con.prepareStatement(sql);
+			pstmt.setString(1, id);
+			pstmt.setString(2, id);
+			pstmt.executeUpdate();
+		}catch(SQLException e) {
+			e.printStackTrace();
+			return false;
+		}
+		return result;
+	}
+	
+
+	
+}

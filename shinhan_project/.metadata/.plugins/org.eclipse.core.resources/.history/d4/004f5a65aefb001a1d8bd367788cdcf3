@@ -1,0 +1,32 @@
+<%@page import="java.util.ArrayList"%>
+<%@page import="shinhan.campusmap.dao.ImageDAO"%>
+<%@page import="shinhan.campusmap.db.DBConnection"%>
+<%@page import="java.sql.Connection"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%
+	//int bcode = Integer.parseInt(request.getParameter("bcode"));
+	int bcode = 101;	
+	System.out.println("bcode " + bcode);
+	
+	Connection con = DBConnection.openConnection();
+	ImageDAO dao = new ImageDAO(con);
+	
+	ArrayList<String> route = new ArrayList<String>();
+	route = dao.selectImages(bcode);
+	
+	DBConnection.closeConnection(con);
+	
+	String imageRoutes = "";
+	for(int i=0;i<route.size();i++){
+		imageRoutes += route.get(i).toString();
+		System.out.println(route.get(i));
+		
+		if(route.size() - 1 != i){
+			imageRoutes += ",";
+		}
+	}
+	
+	System.out.println(route);
+	out.print(route);
+%>

@@ -1,0 +1,37 @@
+
+8월 27, 2020 22:39:14.575 NEW SESSION
+8월 27, 2020 22:39:14.575 [15260:4600:0827/223914.572:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+
+9월 01, 2020 17:16:22.570 NEW SESSION
+9월 01, 2020 17:16:22.570 [4108:6416:0901/171622.566:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+9월 01, 2020 17:59:34.330 [4108:11200:0901/175934.329:ERROR:socket_stream.cc(219)] Closing stream with result -2
+9월 01, 2020 19:10:40.10 [4108:11200:0901/191040.009:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+9월 01, 2020 20:35:43.663 [4108:4468:0901/203543.662:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.366 s for first_image_paint 0.359 s
+9월 01, 2020 20:35:44.873 [4108:4468:0901/203544.873:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.366 s for first_image_paint 0.359 s
+9월 01, 2020 21:18:49.727 [4108:4468:0901/211849.726:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.363 s for first_image_paint 0.351 s
+
+9월 02, 2020 14:53:56.830 NEW SESSION
+9월 02, 2020 14:53:56.831 [16880:1008:0902/145356.825:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+9월 02, 2020 14:54:48.830 [16880:928:0902/145448.829:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.532 s for first_image_paint 0.482 s
+9월 02, 2020 14:54:50.204 [16880:928:0902/145450.203:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.532 s for first_image_paint 0.482 s
+9월 02, 2020 14:54:51.563 [16880:928:0902/145451.562:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.532 s for first_image_paint 0.482 s
+9월 02, 2020 14:54:53.396 [16880:928:0902/145453.396:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.532 s for first_image_paint 0.482 s
+9월 02, 2020 14:54:56.935 [16880:928:0902/145456.935:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.532 s for first_image_paint 0.482 s
+9월 02, 2020 14:55:03.857 [16880:928:0902/145503.857:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.532 s for first_image_paint 0.482 s
+9월 02, 2020 14:55:05.190 [16880:928:0902/145505.190:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.532 s for first_image_paint 0.482 s
+9월 02, 2020 14:55:06.256 [16880:928:0902/145506.255:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.532 s for first_image_paint 0.482 s
+9월 02, 2020 14:55:07.357 [16880:928:0902/145507.356:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.532 s for first_image_paint 0.482 s
+9월 02, 2020 14:55:11.240 [16880:928:0902/145511.239:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.532 s for first_image_paint 0.482 s
+9월 02, 2020 14:55:12.486 [16880:928:0902/145512.486:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.532 s for first_image_paint 0.482 s
+9월 02, 2020 14:55:14.448 [16880:928:0902/145514.448:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.532 s for first_image_paint 0.482 s
+9월 02, 2020 15:27:22.160 [16880:928:0902/152722.159:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.382 s for first_image_paint 0.37 s
+9월 02, 2020 15:27:23.255 [16880:928:0902/152723.254:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.382 s for first_image_paint 0.37 s
+9월 02, 2020 15:27:24.281 [16880:928:0902/152724.280:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.382 s for first_image_paint 0.37 s
+9월 02, 2020 15:27:25.579 [16880:928:0902/152725.579:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.382 s for first_image_paint 0.37 s
+9월 02, 2020 16:34:11.456 [16880:928:0902/163411.455:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.41 s for first_image_paint 0.404 s
+9월 02, 2020 17:02:28.604 [16880:928:0902/170228.603:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.34 s for first_image_paint 0.329 s
+9월 02, 2020 17:02:29.735 [16880:928:0902/170229.735:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.34 s for first_image_paint 0.329 s
+9월 02, 2020 17:02:31.511 [16880:928:0902/170231.511:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.34 s for first_image_paint 0.329 s
+9월 02, 2020 18:11:11.567 [16880:13736:0902/181111.566:ERROR:socket_stream.cc(219)] Closing stream with result -2
+9월 02, 2020 19:44:56.635 [16880:13736:0902/194456.634:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+9월 02, 2020 20:22:19.810 [18288:15728:0902/202219.808:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.

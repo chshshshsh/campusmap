@@ -1,0 +1,35 @@
+<%@page import="shinhan.campusmap.dto.ImageDTO"%>
+<%@page import="shinhan.campusmap.db.DBConnection"%>
+<%@page import="java.sql.Connection"%>
+<%@page import="shinhan.campusmap.dao.ImageDAO"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ page import="java.io.PrintWriter"%>
+
+<%
+	request.setCharacterEncoding("UTF-8");
+%>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+	<%
+		int icode = Integer.parseInt(request.getParameter("icode"));
+
+		Connection con1 = DBConnection.openConnection();
+		ImageDAO imageDAO = new ImageDAO(con1);
+
+		boolean result = imageDAO.deleteData(icode);//삭제
+
+		PrintWriter script = response.getWriter();
+		script.println("<script>");
+		script.println("location.href='../img_list.jsp'");
+		script.println("</script>");
+	%>
+
+</body>
+</html>
+

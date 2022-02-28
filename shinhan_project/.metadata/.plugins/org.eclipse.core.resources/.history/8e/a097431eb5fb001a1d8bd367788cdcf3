@@ -1,0 +1,214 @@
+<html>
+
+<head>
+    <title>Shinhan Campus Map Administrator Page</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+
+<body class="is-preload">
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Header -->
+        <header id="header" class="alt">
+            <span class="logo"><img src="images/logo.svg" alt="" /></span>
+            <h1>Shinhan Campus Map</h1>
+            <p>Welcome to the administrator's page : )</p>
+        </header>
+
+        <!-- Nav -->
+        <nav id="nav">
+            <ul>
+                <li><a href="intro.html">Introduction</a></li>
+                <li><a href="checking.html">CheckingPicture</a></li>
+                <li><a href="selecting.html" class="active">SelectingMainPicture</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main -->
+        <div id="main">
+
+            <!-- Content -->
+            <section id="content" class="main">
+
+                <!-- Second Section -->
+                <section id="selecting" class="main special">
+                    <header class="major">
+                        <h2>Selecting Main Picture</h2>
+                    </header>
+                    <div class="main" style="width: 20%; float: left;">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>의정부캠퍼스</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><a href="#">에벤에셀관</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">벧엘관</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">신한의원</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">행함관</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">진리관</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">말씀관</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">카르멜2관</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">은혜관</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">믿음관</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">빛과 소금관</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">변혁관</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">기도관</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">광야관</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">모리아관</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">시온관</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">교양관</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">카르멜1관</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>동두천캠퍼스</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><a href="#">본관</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">별관</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">로뎀관</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">샤론관</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">브니엘관</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">베데스다관</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">카르멜3관</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="box alt" style="width: 75%; float: right;">
+                        <div class="row gtr-uniform">
+                            <p>대표사진으로 설정할 사진을 선택하세요 !</p>
+                            <ul class="features">
+                                <li>
+                                    <span class="gallery"><img src="images/pic01.jpg"
+                                            style="max-width: 100%; max-height: 100%;" alt="" /></span>
+                                    <h5><a id="title">9월 10일에 촬영한 본관</a></h5>
+                                    <input type="button" class="button primary" name="select" value="대표사진으로 선택">
+                                </li>
+                                <li>
+                                    <span class="gallery"><img src="images/pic02.jpg"
+                                            style="max-width: 100%; max-height: 100%;" alt="" /></span>
+                                    <h5><a id="title">9월 11일에 촬영한 본관</a>
+                                    </h5>
+                                    <input type="button" class="button primary" name="select" value="대표사진으로 선택">
+                                </li>
+                                <li>
+                                    <span class="gallery"><img src="images/pic03.jpg"
+                                            style="max-width: 100%; max-height: 100%;" alt="" /></span>
+                                    <h5><a id="title">9월 12일에 촬영한 본관</a></h5>
+                                    <input type="button" class="button primary" name="select" value="대표사진으로 선택">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </section>
+            <section>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            </section>
+        </div>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <section>
+                <h2>Shinhan Campus Map<br>Administrator Page</h2>
+                <p>made in 2020</p>
+                <ul class="actions">
+                    <li><a href="#" class="button">Log Out</a></li>
+                </ul>
+            </section>
+            <section>
+                <h2>Member</h2>
+                <dl class="alt">
+                    <dt>Name</dt>
+                    <dd>Su Jin</dd>
+                    <dt>Name</dt>
+                    <dd>Sol Nae</dd>
+                    <dt>Name</dt>
+                    <dd>Seung Ha</dd>
+                </dl>
+                <ul class="icons">
+                    <li><a href="#" class="icon brands fa-twitter alt"><span class="label">Twitter</span></a></li>
+                    <li><a href="#" class="icon brands fa-facebook-f alt"><span class="label">Facebook</span></a></li>
+                    <li><a href="#" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
+                    <li><a href="#" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
+                    <li><a href="#" class="icon brands fa-dribbble alt"><span class="label">Dribbble</span></a></li>
+                </ul>
+            </section>
+            <p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+        </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
